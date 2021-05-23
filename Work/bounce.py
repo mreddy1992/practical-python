@@ -8,3 +8,7 @@ while num_of_bounces < 10:
     height = (3 / 5) * height
     num_of_bounces += 1
     print(num_of_bounces, round(height, 4))
+
+
+
+

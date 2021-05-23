@@ -18,6 +18,6 @@ def read_portfolio(filename):
                 portfolio_dict['price'] = float(row[2])
                 portfolio.append(portfolio_dict)
             except ValueError:
-                print("Bad input")
+                print(f'Row{rowno}: Bad row: {row}')
 
     return portfolio
